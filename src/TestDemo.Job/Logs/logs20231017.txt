@@ -1,0 +1,85 @@
+2023-10-17 18:15:10.023 +08:00 [INF] ()        : Starting console host.
+2023-10-17 18:15:10.814 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        : Loaded ABP modules:
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        : - TestDemo.Job.TestDemoJobAppModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :   - Volo.Abp.Autofac.AbpAutofacModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :   - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :     - Volo.Abp.Threading.AbpThreadingModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :   - TestDemo.TestDemoDomainModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :     - TestDemo.TestDemoDomainSharedModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :       - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :         - Volo.Abp.Validation.AbpValidationModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :           - Volo.Abp.Localization.AbpLocalizationModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :             - Volo.Abp.Settings.AbpSettingsModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :               - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :               - Volo.Abp.Security.AbpSecurityModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :               - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :                 - Volo.Abp.Data.AbpDataModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :                   - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :                   - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :                   - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :       - Volo.Abp.BackgroundJobs.AbpBackgroundJobsDomainSharedModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :       - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :         - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :           - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :           - Volo.Abp.Timing.AbpTimingModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :       - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :         - Volo.Abp.Users.AbpUsersDomainSharedModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :         - Volo.Abp.Features.AbpFeaturesModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :           - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :       - Volo.Abp.OpenIddict.AbpOpenIddictDomainSharedModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :       - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :       - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :       - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :     - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :       - Volo.Abp.Auditing.AbpAuditingModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :         - Volo.Abp.Json.AbpJsonModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :         - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :       - Volo.Abp.Domain.AbpDddDomainModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :         - Volo.Abp.EventBus.AbpEventBusModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :           - Volo.Abp.Guids.AbpGuidsModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :           - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :         - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :         - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :         - Volo.Abp.Specifications.AbpSpecificationsModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :         - Volo.Abp.Caching.AbpCachingModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :           - Volo.Abp.Serialization.AbpSerializationModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :     - Volo.Abp.BackgroundJobs.AbpBackgroundJobsDomainModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :       - Volo.Abp.BackgroundJobs.AbpBackgroundJobsModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :       - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :     - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :     - Volo.Abp.Identity.AbpIdentityDomainModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :       - Volo.Abp.Users.AbpUsersDomainModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :         - Volo.Abp.Users.AbpUsersAbstractionModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :     - Volo.Abp.OpenIddict.AbpOpenIddictDomainModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :     - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :     - Volo.Abp.TenantManagement.AbpTenantManagementDomainModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :     - Volo.Abp.Emailing.AbpEmailingModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :       - Volo.Abp.TextTemplating.AbpTextTemplatingModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :         - Volo.Abp.TextTemplating.Scriban.AbpTextTemplatingScribanModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :           - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :     - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :       - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :   - TestDemo.EntityFrameworkCore.TestDemoEntityFrameworkCoreModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :     - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :       - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :         - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :     - Volo.Abp.OpenIddict.EntityFrameworkCore.AbpOpenIddictEntityFrameworkCoreModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :     - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :       - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :         - Volo.Abp.Authorization.AbpAuthorizationModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :     - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :     - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :     - Volo.Abp.BackgroundJobs.EntityFrameworkCore.AbpBackgroundJobsEntityFrameworkCoreModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :     - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :     - Volo.Abp.TenantManagement.EntityFrameworkCore.AbpTenantManagementEntityFrameworkCoreModule
+2023-10-17 18:15:10.815 +08:00 [INF] (Volo.Abp.AbpApplicationBase)        :     - Volo.Abp.FeatureManagement.EntityFrameworkCore.AbpFeatureManagementEntityFrameworkCoreModule
+2023-10-17 18:15:10.849 +08:00 [DBG] (Volo.Abp.BackgroundJobs.BackgroundJobWorker)        : Started background worker: Volo.Abp.BackgroundJobs.BackgroundJobWorker
+2023-10-17 18:15:10.858 +08:00 [DBG] (Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker)        : Started background worker: Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker
+2023-10-17 18:15:10.926 +08:00 [INF] (Volo.Abp.Modularity.ModuleManager)        : Initialized all ABP modules.
+2023-10-17 18:16:14.961 +08:00 [INF] (TestDemo.Job.ProductEventHandler)        : Job Received the [CREATED] event. id:f3084c23-3733-810c-15cf-3a0e4f4facf1  name:Name2
+2023-10-17 18:16:26.615 +08:00 [INF] (TestDemo.Job.ProductEventHandler)        : Job Received the [CREATED] event. id:28e21041-3ad7-2847-0bd0-3a0e4f4fdae7  name:Name4
+2023-10-17 18:16:38.804 +08:00 [INF] (TestDemo.Job.ProductEventHandler)        : Job Received the [CREATED] event. id:29cd7a04-1e4b-1fac-136d-3a0e4f500a86  name:Name6

@@ -1,0 +1,25 @@
+﻿@page
+@using Microsoft.AspNetCore.Http.Extensions
+@using Microsoft.AspNetCore.Mvc.Localization
+@using TestDemo.Pages
+@using TestDemo.Localization
+@using Volo.Abp.Users
+@using Volo.Abp.AspNetCore.Mvc.UI.Theming
+@using Volo.Abp.Ui.Branding
+@inject IHtmlLocalizer<TestDemoResource> L
+@inject ICurrentUser CurrentUser
+@inject IBrandingProvider BrandingProvider
+@inject ITheme Theme
+
+@{
+    Layout = Theme.GetEmptyLayout();
+}
+<div class="d-flex align-items-center" style="min-height: 100vh;">
+    <div class="container">
+        <form method="post" name="loginForm" action="/Account/Login">
+            用户名：<input type="text" name="username" />
+            密码：<input type="password" name="password" />
+            <button type="submit">登录</button>
+        </form>
+    </div>
+</div>
